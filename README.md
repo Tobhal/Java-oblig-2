@@ -58,11 +58,12 @@ For planeter har man enheten Jupiter Mass (Mjup eller MJ) for masse, og Jupiter 
 For stjerner har man enheten Solar Mass (Msun eller M☉) for masse, og Solar Radius (Rsun eller R☉) for størrelse.
 
 Forholdet for disse er slik:
-Astronomisk Enhet 	"Vanlig" enhet
-1 Mjup / MJ  	1.898×1027kg (1.898E27)
-1 Rjup / RJ 	71 492 km
-1 Msun / M☉ 	1.98892×1030kg (1.98892E30)
-1 Rsun / R☉ 	695 700 km
+Astronomisk Enhet | "Vanlig" enhet
+------------------|---------------
+1 Mjup / MJ |	1.898×1027kg (1.898E27)
+1 Rjup / RJ |	71 492 km
+1 Msun / M☉ |	1.98892×1030kg (1.98892E30)
+1 Rsun / R☉ |	695 700 km
 
 Legg til en metode som returnerer masse i Mjup for en Planet.
 Legg til en metode som returnerer radius i Rjup for en Planet.
@@ -79,7 +80,7 @@ Benytt metodene du har laget å skriv ut dette i Main.java.
 
 Vi ønsker å kunne finne surfaceGravity (g) for en Planet, lag en metode som beregner og returnerer dette ut i fra formelen:
 
-Bilderesultat for surface gravity formula
+g = GM/R^2
 
 G = Gravitasjonskonstanten - 6.67408 × 10-11 m3⋅kg−1⋅s−2 altså ca. tallet: 0.00000000006674
 M = Massen til planeten (formelen benytter her kg)
@@ -101,9 +102,11 @@ Lag metoder som gjør dette, benytte disse og skriv ut informasjon om planetene 
 ### Bonusoppgave 3.1
 
 Som beskrevet i oppgave 2.4 så har vi forskjellige enheter vi forholder oss til når det kommer til størrelser i universet. Vi har også en som forholder seg til vår egen planet,  Mearth og Rearth. Denne benyttes også til å gi en indikasjon på størrelsen til andre planeter, terrestriske planeter og exoplaneter.
-Astronomisk Enhet 	"Vanlig" enhet
-1 Mearth / ME / M⊕ 	5.972×1024 kg (5.972E24)
-1 Rearth / RE / R⊕ 	6371 km
+
+Astronomisk Enhet |	"Vanlig" enhet
+------------------|---------------
+1 Mearth / ME / M⊕ |	5.972×1024 kg (5.972E24)
+1 Rearth / RE / R⊕ |	6371 km
 
 Legg til en metode som returnerer masse i Mearth for en Planet.
 Legg til en metode som returnerer radius i Rearth for en Planet.
